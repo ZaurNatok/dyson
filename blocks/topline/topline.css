@@ -1,6 +1,6 @@
-@import url(./__content/__content.css);
-@import url(./__logo/__logo.css);
-@import url(./__menu/__menu.css);
+@import url(/__content/__content.css);
+@import url(/__logo/__logo.css);
+@import url(/__menu/__menu.css);
 
 .topline {
     border-bottom: solid 2px #eee;
