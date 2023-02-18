@@ -783,3 +783,121 @@ bottom: 0 !important;
         display: none;
     }
 }
+
+
+
+
+.header__content {
+    padding: 50px 0 27px;
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1440px) {
+    .header__content {
+        max-width: calc(100% - 60px);
+    }
+}
+
+.topline-mini {
+    display: none;
+}
+
+.topline-menu__menu-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.topline-menu__menu-icon:hover {
+    cursor: pointer;
+}
+
+.icon-element {
+    width: 30px;
+    border: solid 1px #D0549A;
+}
+
+.icon-element:not(:first-child) {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:414px) {
+    .topline-mini {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.topline-mini__content {
+    width: calc(100% - 30px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.topline {
+    border-bottom: solid 2px #eee;
+}
+
+@media screen and (max-width:414px) {
+    .topline {
+        display: none;
+    }
+}
+
+.topline__menu {
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.menu-element a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111827;
+    padding: 0 16px 62px;
+}
+
+.menu-element a:hover {
+    padding-bottom: 62px;
+    border-bottom: solid 3px #D0549A;
+}
+
+.topline__logo {
+    height: 80px;
+    width: 212px;
+}
+
+@media screen and (max-width:414px) {
+    .topline__logo {
+        width: 95px;
+        height: auto;
+    }
+}
+
+.topline__content {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+}
+
+@media screen and (max-width:1440px) {
+    .topline__content {
+        max-width: calc(100% - 60px);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 145px;
+        justify-content: space-between;
+    }
+}
