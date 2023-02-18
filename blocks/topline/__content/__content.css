@@ -1,0 +1,20 @@
+.topline__content {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 145px;
+}
+
+@media screen and (max-width:1440px) {
+    .topline__content {
+        max-width: calc(100% - 60px);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 145px;
+        justify-content: space-between;
+    }
+}

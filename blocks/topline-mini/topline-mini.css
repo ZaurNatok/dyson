@@ -1,0 +1,30 @@
+@import url(./__content/__content.css);
+
+.topline-mini {
+    display: none;
+}
+
+.topline-menu__menu-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.topline-menu__menu-icon:hover {
+    cursor: pointer;
+}
+
+.icon-element {
+    width: 30px;
+    border: solid 1px #D0549A;
+}
+
+.icon-element:not(:first-child) {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:414px) {
+    .topline-mini {
+        display: flex;
+        justify-content: space-between;
+    }
+}

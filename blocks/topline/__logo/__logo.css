@@ -1,0 +1,11 @@
+.topline__logo {
+    height: 80px;
+    width: 212px;
+}
+
+@media screen and (max-width:414px) {
+    .topline__logo {
+        width: 95px;
+        height: auto;
+    }
+}

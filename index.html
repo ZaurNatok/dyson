@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./vendor/normalaize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Dyson</title>
+</head>
+<body>
+
+    <!-- Верхнее меню и логотип, полноразмерное -->
+
+    <div class="topline">
+        <div class="topline__content">
+            <img src="./images/logo.png" alt="logo" class="topline__logo">
+            <ul class="topline__menu">
+                <li class="menu-element"><a href="#" class="menu-element__link">Фены</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">Стайлеры</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">Выпрямители</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">Пылесосы</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">Доставка и оплата</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">Блог</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">FAQ</a></li>
+                <li class="menu-element"><a href="#" class="menu-element__link">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Верхнее меню и логотип, мобильное устройство -->
+
+    <div class="topline-mini">
+        <div class="topline-mini__content">
+            <div class="topline-menu__menu-icon">
+                <span class="icon-element"></span>
+                <span class="icon-element"></span>
+                <span class="icon-element"></span>
+            </div>
+            <img src="./images/logo.png" alt="logo" class="topline__logo">
+        </div>
+    </div>
+
+    <!-- Текст над баннером -->
+
+    <div class="header">
+        <div class="header__content">
+            <div class="header__title-div">
+                <h5 class="header__above">для красивых волос</h5>
+                <h2 class="header__title">уникальные технологии ухода <span class="header__highlighted">dyson</span></h2>
+            </div>
+            <p class="header__text">Ведущие стилисты отмечают, что техника Dyson для ухода за волосами идеально подходит для длительной работы за счёт своей эргономичности. А за счет бесшумности инновационного мотора использование устройств стало максимально комфортным.</p>
+        </div>
+    </div>
+
+    <!-- Баннер -->
+
+    <img src="./images/banner.png" class="banner" alt="main banner">
+    <img src="./images/banner-mini.png" class="banner-mini" alt="main banner-mini">
+
+    <!-- Преимущества -->
+
+    <div class="advantages">
+
+        <div class="advantages__item">
+            <div class="icon">
+                <img src="./images/Clock.png" alt="delivery" class="advantages__icon">
+            </div>
+            <div class="advantages__text">
+                <h5 class="advantages__title">Быстрая доставка</h5>
+                <p class="advantages__subtitle">По Москве: 2-3 часа.</p>
+                <p class="advantages__subtitle">По России - 2-4 дня.</p>
+            </div>
+        </div>
+
+        <div class="advantages__item">
+            <div class="icon">
+                <img src="./images/warranty.png" alt="warranty" class="advantages__icon">
+            </div>
+            <div class="advantages__text">
+                <h5 class="advantages__title">Гарантия 5 лет</h5>
+                <p class="advantages__subtitle">На стайлеры и фены гарантия 2 года</p>
+                <p class="advantages__subtitle"></p>
+            </div>
+        </div>
+
+        <div class="advantages__item">
+            <div class="icon">
+                <img src="./images/refund.png" alt="refund" class="advantages__icon">
+            </div>
+            <div class="advantages__text">
+                <h5 class="advantages__title">Честный обмен</h5>
+                <p class="advantages__subtitle">Любого товара с заводским браком</p>
+                <p class="advantages__subtitle"></p>
+            </div>
+        </div>
+
+        <div class="advantages__item">
+            <div class="icon">
+                <img src="./images/Money.png" alt="money" class="advantages__icon">
+            </div>
+            <div class="advantages__text">
+                <h5 class="advantages__title">Безопасная оплата</h5>
+                <p class="advantages__subtitle">Оплата после получения товара.</p>
+                <p class="advantages__subtitle"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Каталог -->
+
+    <div class="catalogue">
+        <h5 class="catalogue__title">Наши товары</h5>
+        <div class="catalogue__text">
+            <h3 class="catalogue__header">технологические новинки от dyson</h3>
+            <p class="catalogue__subtitle">Ведущие стилисты отмечают, что техника Dyson для ухода за волосами идеально подходит для длительной работы за счёт своей эргономичности. А за счет бесшумности инновационного мотора использование устройств стало максимально комфортным.</p>
+        </div>
+        <a href="#" class="catalogue__link">Смотреть каталог</a>
+    </div>
+
+    <!-- Слайдер -->
+
+    <div class="slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="./images/slider.png" alt="fen" class="slider__image">
+                    <div class="slider__text">
+                        <h4 class="slider__title">Стайлеры Dyson Airwrap</h4>
+                        <a href="" class="slider__link">смотреть</a>
+                    </div>
+                </div>
+
+                 <div class="swiper-slide">
+                    <img src="./images/slider.png" alt="fen" class="slider__image">
+                    <div class="slider__text">
+                        <h4 class="slider__title">Стайлеры Dyson Airwrap</h4>
+                        <a href="" class="slider__link">смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/slider.png" alt="fen" class="slider__image">
+                    <div class="slider__text">
+                        <h4 class="slider__title">Стайлеры Dyson Airwrap</h4>
+                        <a href="" class="slider__link">смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/slider.png" alt="fen" class="slider__image">
+                    <div class="slider__text">
+                        <h4 class="slider__title">Стайлеры Dyson Airwrap</h4>
+                        <a href="" class="slider__link">смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/slider.png" alt="fen" class="slider__image">
+                    <div class="slider__text">
+                        <h4 class="slider__title">Стайлеры Dyson Airwrap</h4>
+                        <a href="" class="slider__link">смотреть</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="./images/slider.png" alt="fen" class="slider__image">
+                    <div class="slider__text">
+                        <h4 class="slider__title">Стайлеры Dyson Airwrap</h4>
+                        <a href="" class="slider__link">смотреть</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="slider__controls">
+            <div class="slider__pagination"></div>
+            <div class="slider__buttons">
+                <img src="./images/ArrowRight.svg" alt="" class="button button_left">
+                <img src="./images/ArrowRight.svg" alt="" class="button button_right">
+            </div>
+        </div>
+      
+    </div>
+
+    <!-- Баннер -->
+
+    <div class="banner-center">
+        <div class="banner-center__content">
+            <h5 class="banner-center__above">стайлеры airwrap</h5>
+            <h3 class="banner-center__title">Укладка волос без чрезмерного нагрева.</h3>
+            <p class="banner-center__subtitle">В комплект входят насадки для создания локонов, выпрямления волос и придания объема.</p>
+            <a href="#" class="banner-center__link">Фены для волос </a>
+        </div>
+        <img src="./images/banner-image.png" alt="" class="banner-center__image">
+    </div>
+    
+    <!-- Выгодное предложение -->
+
+    <div class="proposals">
+        <div class="proposals__content">
+            <div class="proposals__header">
+                <h5 class="proposals__type">Стайлеры</h5>
+                <h2 class="proposals__title">Выгодное предложение от dyson</h2>
+            </div>
+            <div class="proposals__elements">
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="proposals__more">
+                <a href="#" class="proposals__link">еще товары</a>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Почему Dyson -->
+
+    <div class="proposals proposals_why">
+        <div class="proposals__content proposals__content_2">
+            <div class="proposals__header">
+                <h5 class="proposals__type proposals__type_why">почему dyson</h5>
+                <h2 class="proposals__title proposals__title_why">техника для ухода за волосами от увлеченных профессионалов</h2>
+            </div>
+        </div>
+        <div class="proposals__content proposals__content_why">
+            <img src="./images/why.png" alt="why dyson" class="why-image">
+            <div class="why-content">
+                <h4 class="why-content__title">В целом, конечно, высокотехнологичная концепция</h4>
+                <p class="why-content__text">Несмотря на высокую стоимость, техника Dyson помогает экономить. Мастера тратят меньше времени на сушку и укладку волос, благодаря чему успевают обслужить большее количество клиентов. Также устройства от Dyson потребляют значительно меньше электроэнергии, не теряя свою мощность</p>
+                <h4 class="why-content__title">универсальное решение для ухода за волосами</h4>
+                <p class="why-content__text">Фены Dyson универсальны. Они подходят для сушки разных типов волос. Насадки из комплекта помогают создавать укладки на любой вкус. Функциональность девайсов впечатляет не меньше, чем их уникальный дизайн</p>
+                <h4 class="why-content__title">Сложно сказать, почему непосредственные</h4>
+                <p class="why-content__text">Ведущие стилисты отмечают, что техника Dyson для ухода за волосами идеально подходит для длительной работы за счёт своей эргономичности. А за счет бесшумности инновационного мотора использование устройств стало максимально комфортным</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Баннер -->
+
+    <div class="banner-center">
+        <div class="banner-center__content">
+            <h5 class="banner-center__above">фены для волос</h5>
+            <h3 class="banner-center__title">Открой технологию ухода за волосами Dyson</h3>
+            <p class="banner-center__subtitle">Ведущие стилисты отмечают, что техника Dyson для ухода за волосами идеально подходит для длительной работы за счёт своей эргономичности</p>
+            <a href="#" class="banner-center__link">Фены для волос </a>
+        </div>
+        <img src="./images/banner-image.png" alt="" class="banner-center__image">
+    </div>
+
+    <!-- Выгодное предложение -->
+
+    <div class="proposals">
+        <div class="proposals__content">
+            <div class="proposals__header">
+                <h5 class="proposals__type">фены</h5>
+                <h2 class="proposals__title">выгодное предложение от dyson</h2>
+            </div>
+            <div class="proposals__elements">
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal1.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal2.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal3.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal4.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="proposals__more">
+                <a href="#" class="proposals__link">еще товары</a>
+            </div> 
+        </div>
+    </div>
+
+    <!-- Баннер -->
+
+    <div class="banner-center">
+        <div class="banner-center__content">
+            <h5 class="banner-center__above">выпрямители волос</h5>
+            <h3 class="banner-center__title">Открой технологию ухода за волосами Dyson</h3>
+            <p class="banner-center__subtitle">Ведущие стилисты отмечают, что техника Dyson для ухода за волосами идеально подходит для длительной работы за счёт своей эргономичности</p>
+            <a href="#" class="banner-center__link">к выпрямителям </a>
+        </div>
+        <img src="./images/banner-image.png" alt="" class="banner-center__image">
+    </div>
+
+    <!-- Выгодное предложение -->
+
+    <div class="proposals">
+        <div class="proposals__content">
+            <div class="proposals__header">
+                <h5 class="proposals__type">выпрямители</h5>
+                <h2 class="proposals__title">выгодное предложение от dyson</h2>
+            </div>
+            <div class="proposals__elements">
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal5.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal6.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal7.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div>
+                <div class="proposals__element">
+                    <span class="proposals__sticker">хит продаж</span>
+                    <img src="./images/proposal8.png" alt="proposal" class="proposals__image">
+                    <p class="proposals__head">Выпрямитель Dyson Corrale в чехле и с расческами</p>
+                    <p class="proposals__price">39 990 ₽</p>
+                    <div class="proposals__button">
+                        <a href="#" class="proposals__link">Заказать</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="proposals__more">
+                <a href="#" class="proposals__link">еще товары</a>
+            </div> 
+        </div>
+    </div>
+
+</body>
+
+<script>
+    var swiper = new Swiper(".swiper", {
+      slidesPerView: 2.144885,
+      centeredSlides: false,
+      spaceBetween: 40,
+      grabCursor: true,
+      breakpoints: {
+        1920: {
+            slidesPerView: 2.884,
+            spaceBetween: 40
+        },
+        1440: {
+            slidesPerView: 2.144885,
+            spaceBetween: 40
+        },
+        375: {
+            slidesPerView: 1.455,
+            spaceBetween: 24
+        }      
+    },
+      pagination: {
+        el: ".slider__pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.button_right',
+        prevEl: '.button_left',
+        },
+    });
+</script>
+
+
+
+</html>

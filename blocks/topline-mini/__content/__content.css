@@ -1,0 +1,7 @@
+.topline-mini__content {
+    width: calc(100% - 30px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
